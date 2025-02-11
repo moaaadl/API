@@ -1,6 +1,7 @@
 # Social Media Platform
+
 <p>This project is about a social media platform that allows users to create and share posts and is built with HTML, JavaScript, and Bootstrap.</p>
-<img src="#">
+<img src="./image.png">
 
 ## Features
 
@@ -21,8 +22,10 @@
 
    ```bash
    git clone https://github.com/moaaadl/API.git
+   ```
+
 2. Install dependencies:
 
-    ```bash
-    npm install
-
+   ```bash
+   npm install
+   ```
