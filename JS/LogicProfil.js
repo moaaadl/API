@@ -30,7 +30,7 @@ function getUserProfile() {
         document.getElementById("username-profil").innerText = user.username;
         document.getElementById("email-user-profil").innerText = user.email;
         document.getElementById("name-user-profil").innerText = user.name;
-        document.getElementById("img-profil").src = typeof user.profile_image === "string" && user.profile_image.trim() !== "" ? user.profile_image : "man.png";
+        document.getElementById("img-profil").src = typeof user.profile_image === "string" && user.profile_image.trim() !== "" ? user.profile_image : "./IMAGES/man.png";
         document.getElementById("comment-count").innerHTML = user.comments_count;
         document.getElementById("post-count").innerHTML = user.posts_count;
         document.getElementById("title-profil").innerHTML = user.username;
@@ -67,7 +67,7 @@ function getPost() {
                 const profileImage =
                     author?.profile_image && typeof author.profile_image === "string" && author.profile_image.trim()
                         ? author.profile_image
-                        : "./man.png";
+                        : "./IMAGES/man.png";
 
                 let user = getUser();
                 

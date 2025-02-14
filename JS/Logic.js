@@ -32,7 +32,7 @@ function getPost(reload = true, page = 1) {
                 const profileImage =
                     author?.profile_image && typeof author.profile_image === "string" && author.profile_image.trim()
                         ? author.profile_image
-                        : "./man.png";
+                        : "./IMAGES/man.png";
 
                 let user = getUser();
                 

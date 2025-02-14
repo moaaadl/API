@@ -23,7 +23,7 @@ function situpUI() {
         document.getElementById("img-nav").src = 
             typeof user.profile_image === "string" && user.profile_image.trim() 
                 ? user.profile_image 
-                : "man.png";
+                : "./IMAGES/man.png";
 
 
     } else {
@@ -212,6 +212,7 @@ function registerBtnClick() {
     let username = document.getElementById("username1").value;
     let password = document.getElementById("password1").value;
     let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
     let profileImage = document.getElementById("profil-image").files[0];
 
     if (!username || !password || !name) {
@@ -222,6 +223,7 @@ function registerBtnClick() {
     let formData = new FormData();
     formData.append("username", username);
     formData.append("password", password);
+    formData.append("email", email);
     formData.append("name", name);
     formData.append("image", profileImage);
 

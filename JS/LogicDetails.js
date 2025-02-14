@@ -25,7 +25,7 @@ function getOnePost() {
             let profileImage =
                 post?.author?.profile_image && typeof post.author.profile_image === "string" && post.author.profile_image.trim()
                     ? post.author.profile_image
-                    : "man.png";
+                    : "./IMAGES/man.png";
             
             let commentsContent = ``
 
@@ -33,7 +33,7 @@ function getOnePost() {
 
                 let profileImageComment = cmnt.author.profile_image && typeof cmnt.author.profile_image === "string" && cmnt.author.profile_image.trim()
                     ? cmnt.author.profile_image
-                    : "man.png";
+                    : "./IMAGES/man.png";
 
                 commentsContent += `
                     <div class="p-3 comment shadow rounded" style="background-color: #ffffff;">
