@@ -1,6 +1,6 @@
-# Social Media Platform
+# <a href="https://api-git-main-moaaadls-projects.vercel.app/">Social Media Platform</a>
 
-<p>This project is about a social media platform that allows users to create and share posts and is built with HTML, JavaScript, and Bootstrap.</p>
+<p>This <a href="https://api-git-main-moaaadls-projects.vercel.app/">project</a> is about a social media platform that allows users to create and share posts and is built with HTML, JavaScript, and Bootstrap.</p>
 <img src="./IMAGES/image.png">
 
 ## Features
