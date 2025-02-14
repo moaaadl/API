@@ -1,7 +1,7 @@
 # Social Media Platform
 
 <p>This project is about a social media platform that allows users to create and share posts and is built with HTML, JavaScript, and Bootstrap.</p>
-<img src="./image.png">
+<img src="./IMAGES/image.png">
 
 ## Features
 
