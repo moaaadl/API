@@ -15,6 +15,7 @@ window.addEventListener("scroll", function () {
 });
 toggleLoader(true);
 // this function is to get the posts
+getPost();
 function getPost(reload = true, page = 1) {
     axios.get(`https://tarmeezacademy.com/api/v1/posts?limit=3&page=${page}`)
         .then(function (response) {
