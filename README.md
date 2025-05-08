@@ -24,8 +24,3 @@
    git clone https://github.com/moaaadl/API.git
    ```
 
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
